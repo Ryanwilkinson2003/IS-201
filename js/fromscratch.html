@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Why I Love Soccer</title>
+    <link rel="stylesheet" href="scratchstyle.css" />
+</head>
+<body>
+    <div id="top" class="header">
+  <h1>Why I Love Soccer ⚽
+    <a href="#video" style="color: white; margin-left: 20px; font-weight: normal; font-size: 0.7em; text-decoration: underline;">
+      Jump to Video ↓
+    </a>
+  </h1>
+  <p>The beautiful game that brings the world together.</p>
+</div>
+
+    <div class="main-content">
+        <h2>The Passion Behind the Game</h2>
+        <p>Soccer is more than a sport—it's strategy, culture, teamwork, and creativity.</p>
+        <img src="assets/Soccer Field 1.jpeg" alt="Soccer Field" width="500" />
+
+        <h3>My Top 3 Favorite Things About Soccer</h3>
+        <ol>
+            <li>Global Culture
+                <ul>
+                    <li>Fans around the world</li>
+                    <li>Unique chants and traditions</li>
+                </ul>
+            </li>
+            <li>Teamwork and Chemistry
+                <ul>
+                    <li>Unspoken connections on the field</li>
+                    <li>Selfless assists</li>
+                </ul>
+            </li>
+            <li>Moments of Brilliance
+                <ul>
+                    <li>Long-range goals</li>
+                    <li>Last-minute comebacks</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3 id="video">Watch: Top 10 Goals of All Time</h3>
+        <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/VKzP5fCyeLQ" 
+    title="YouTube soccer highlights" frameborder="0" 
+    allowfullscreen></iframe>
+    </div>
+
+<div class="tableau-section">
+  <h2>Interactive Tableau: Messi vs Ronaldo Stats</h2>
+  <div style="width: 100%; max-width: 900px; margin: auto;">
+    <!-- Embed Tableau v3 -->
+    <tableau-viz id="tableauViz"
+      src="https://public.tableau.com/views/MessivsRonaldoStats_15878205029140/MessivsRonaldo"
+      width="100%" height="700px"
+      toolbar="bottom"
+      hide-tabs>
+    </tableau-viz>
+  </div>
+</div>
+
+<!-- Tableau Embedding API v3 -->
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+<div class="game-link">
+    <h3>Play My Snake Game</h3>
+    <p>Want to take a break from reading? Try out the simple Snake game I coded!</p>
+    <a href="game.html" target="_blank">Play Snake Game →</a>
+</div>
+    <div class="footer">
+        <a href="../index.html">← Back to Main Site</a>
+    </div>
+ 
+</body>
+</html>
